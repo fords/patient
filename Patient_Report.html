@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+        <style>
+            .heading {
+                text-align: center;
+            }
+        </style>
+
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>Patient Report</h1>
+        </div>
+        <div class="row timestamps">
+            <div class="span4">
+                Report Prepared: 08/28/2019
+                <br>
+                Date Range: 08/28/2018 – 08/28/2019
+                <br>
+            </div>
+
+            <div class="span8" style="margin-top:-14px;">
+                <div class="pull-right casper-export-button-group">
+                </div>
+            </div>
+        </div>
+
+
+        <div id="header_extras3" class="collapse in clearfix header_extras" aria-hidden="false">
+            <div id="header_content" class="clearfix">
+                <div class="linked_records span12">
+                    <h5 class="patient_sub_header">Linked Records</h5>
+                    <table class="table no_border_table">
+                        <thead>
+                            <tr class="heading">
+                                <th>Name</th>
+                                <th>DOB</th>
+                                <th>ID</th>
+                                <th>Gender</th>
+                                <th>Address</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr >
+                                <td> John Doe </td>
+                                <td>10/10/2000</td>
+                                <td>1406969</td>
+                                <td> Non-binary </td>
+                                <td> 1691 Hoho st</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <fieldset  class="casper_header report_criteria" >
+                <legend id = 'bold'>Report Criteria</legend>
+                <div class="criteria">
+                    <div class="keypair">
+                        <span class="key">First Name: </span>
+                        <span class="value"> John</span>
+                    </div>
+                    <div class="keypair">
+                        <span class="key">Last Name: </span>
+                        <span class="value"> Doe</span>
+                    </div>
+                    <div class="keypair">
+                        <span class="key">DOB: </span>
+                        <span class="value">10/10/2000</span>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <div id="header_extras3" class="collapse in clearfix header_extras" aria-hidden="false">
+        <div id="header_content" class="clearfix">
+            <div class="linked_records span12">
+                <h5 class="patient_sub_header"> Summary </h5>
+                <table class="table no_border_table">
+                    <thead>
+                        <tr class="heading">
+                            <th>Date</th>
+                            <th>Dose</th>
+                            <th>Location</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr >
+                            <td>1/1/2019</td>
+                            <td>30mg</td>
+                            <td>Discovery House Woonsocket
+                             1625 Diamond Hill Road,Woonsocket, RI, 02895
+                              401-324-4040 </td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr >
+                            <td>2/1/2019</td>
+                            <td>35mg</td>
+                            <td>Discovery House Providence
+                             66 Parillion Ave, Providence, RI, 02895
+                             401-217-4768 </td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr >
+                            <td>3/1/2019</td>
+                            <td>30mg</td>
+                            <td>CODAC
+                             349 Huntington Ave, Providence, RI 02909
+                              401-942-1450 </td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr >
+                            <td>4/1/2019</td>
+                            <td>40mg</td>
+                            <td>CODAC
+                             528 North Main Street, Providence, RI 02909
+                              401-808-6278 </td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr >
+                            <td>4/20/2019</td>
+                            <td>42mg</td>
+                            <td>CODAC
+                             528 North Main Street, Providence, RI 02909
+                              401-808-6278 </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+
+    </div>
+</body>
+        <!-- <div class="modal fade hidden" id="contested_dialog_modal" role="alertdialog" aria-live="assertive"
+            tabindex="-1" aria-labelledby="contested_record-contested_dialog_modal"
+            aria-describedby="dialog-desc-contested_dialog_modal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">×</span></button>
+                        <h4 class="modal-title" id="confirm-modal-contested_dialog_modal">Contested Record Flag</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="confirm_info">
+                            <div id="dialog-desc-contested_dialog_modal">
+                                <div id="dispensation_info"></div>
+                                <div id="contested_record_form_partial"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="disclaimer">
+          <div>
+            <h3 class="text">Physician (MD, DO) Disclaimer:</h3>
+            <p class="text">
+                DISCLAIMER: Information in this document includes only exact matches to the parameters provided by the
+                requestor. The information in this document is received from dispensing pharmacies and is only as
+                accurate as the information provided by those pharmacies. This document contains only Schedule II-V
+                controlled substance prescription information. There may be up to a 3 day delay in the appearance of
+                prescription information due to reporting requirements. I certify that the information I have entered
+                above is accurate. By checking this box, I attest under penalty of perjury that I am an authorized user
+                of the RI PDMP who certifies that the requested information is for patient care or for official
+                investigatory/regulatory purposes. Access to and review of this information in the RI PDMP is restricted
+                to authorized account holders only and is to be limited to patients under their care. Any other use of
+                this information is strictly prohibited. All users of the PDMP must treat the information obtained in
+                accordance with the provisions of the Health Insurance Portability and Accountability Act (HIPPA)
+                42 U.S. Code § 1320(d) and the Rhode Island Healthcare Confidentiality Act
+                (RIGL 5-37.3.-4).
+            </p>
+          </div>
+        </div>
+    </div>
+</html>
