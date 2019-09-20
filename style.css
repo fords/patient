@@ -1,0 +1,36 @@
+
+*{
+    background-color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+.display-inline{
+  color: black;
+  background-color: purple;
+  
+}
+
+.control-group {
+    background-color: rgb(158, 153, 153); 
+    justify-content: center;
+}
+  .sam-number-circle:hover,
+  .active .sam-number-circle{
+    border-color: #0C4787;
+  }
+
+ 
+  .btn.btn-primary, .contact_link, .btn.btn-info, .btn.btn-success {
+    background-color:  none !important;
+    border: 2px solid  purple !important;
+  }
+
+  .radio-container:hover input ~ .checkmark {
+    background-color: #040F21;
+  }
+
+  .radio-container input:checked ~ .checkmark {
+    background-color: #0C4787;
+  }
